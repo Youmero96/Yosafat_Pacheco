@@ -1,0 +1,32 @@
+#include<stdio.h>
+
+double Hashdivision(A[]){
+	int m = sizeof(A[]); 
+	int Hash[m];
+	int llave;
+
+	println("dame un valor de la llave que sea mayor a %d", sizeof(A[]);
+	scanf("%d", &llave);
+	if(llave < m){
+		print("el valor no es valido intente con otro valor");
+		break;
+	}
+	else{
+		for(i=0;i<=sizeof(A[]);i++){
+
+			Hash[i]= A[i]%llave;
+			println("%d\n", Hash[i]);
+		}
+
+	}
+	
+	return 1;
+}
+void main(){
+	double Array[]=(315238684,315124851,315199761,315198715,315286513,315240454,315311284,315264520,315209118,417061438,315130928,312128269,315081143,313152238,315249206,315293742,315230530,418046708,314185970,315062993,315134270,313258536,315135435,315020739,315338203,315226742,315299713,418046832,315236006,315530397,3152212174)
+
+	println("la lista original es:");
+	for(i=0;i<sizeof(Array);i++){
+	
+	}
+}
